@@ -3,7 +3,7 @@ from http import HTTPStatus
 from unittest.mock import patch
 
 # Third Party
-from vllm.entrypoints.openai.protocol import (
+from vllm.entrypoints.openai.models.protocol import (
     ChatCompletionRequest,
     ChatCompletionResponse,
     ChatCompletionResponseChoice,

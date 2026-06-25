@@ -7,7 +7,7 @@ import asyncio
 
 # Third Party
 from vllm.config import MultiModalConfig
-from vllm.entrypoints.openai.protocol import (
+from vllm.entrypoints.openai.models.protocol import (
     ChatCompletionLogProb,
     ChatCompletionLogProbs,
     ChatCompletionLogProbsContent,

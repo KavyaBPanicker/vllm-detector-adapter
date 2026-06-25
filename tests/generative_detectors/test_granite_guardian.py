@@ -9,7 +9,7 @@ import json
 # Third Party
 from jinja2.exceptions import TemplateError, UndefinedError
 from vllm.config import MultiModalConfig
-from vllm.entrypoints.openai.protocol import (
+from vllm.entrypoints.openai.models.protocol import (
     ChatCompletionLogProb,
     ChatCompletionLogProbs,
     ChatCompletionLogProbsContent,

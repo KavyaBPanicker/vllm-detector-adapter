@@ -16,7 +16,7 @@ from vllm.entrypoints.launcher import serve_http
 from vllm.entrypoints.logger import RequestLogger
 from vllm.entrypoints.openai import api_server
 from vllm.entrypoints.openai.cli_args import make_arg_parser, validate_parsed_serve_args
-from vllm.entrypoints.openai.protocol import ErrorInfo, ErrorResponse
+from vllm.entrypoints.openai.models.protocol import ErrorInfo, ErrorResponse
 from vllm.entrypoints.openai.serving_models import BaseModelPath, OpenAIServingModels
 from vllm.entrypoints.openai.tool_parsers import ToolParserManager
 from vllm.utils import FlexibleArgumentParser, is_valid_ipv6_address, set_ulimit
