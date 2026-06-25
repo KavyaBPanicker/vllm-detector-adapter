@@ -5,7 +5,7 @@ from typing import Dict, List, Optional
 # Third Party
 from pydantic import BaseModel, Field, RootModel, ValidationError
 from typing_extensions import NotRequired, Required, TypedDict
-from vllm.entrypoints.openai.models.protocol import (
+from vllm.protocol.openai import (
     ChatCompletionRequest,
     ChatCompletionResponse,
     ErrorInfo,
